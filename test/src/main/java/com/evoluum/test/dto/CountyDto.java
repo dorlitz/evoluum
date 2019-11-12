@@ -1,0 +1,34 @@
+package com.evoluum.test.dto;
+
+public class CountyDto {
+
+    private Integer id;
+
+    private String nome;
+
+    private MicroRegionDto microrregiao;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public MicroRegionDto getMicrorregiao() {
+        return microrregiao;
+    }
+
+    public void setMicrorregiao(MicroRegionDto microrregiao) {
+        this.microrregiao = microrregiao;
+    }
+}
